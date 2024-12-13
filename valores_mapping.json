@@ -1,0 +1,105 @@
+{
+ "você_acha_que_o_momento_escolhido_para_o_treinamento_é_adequado_para_você?": {
+    "new_name": "avalia_horario_treinamento",
+    "values":{
+        "Mais ou menos, mas consigo me ajustar.": 0, 
+        "Sim, o horário é ótimo para minha disponibilidade.": 1, 
+        "Não, este não é o melhor momento para mim devido a compromissos prévios.": -1
+    }
+},
+ "você_pretende_participar_de_todas_as_aulas?": {
+    "new_name": "intencao_participacao",
+    "values":{
+        "Pretendo, e já reservei o horário das aulas para focar no treinamento.": 1,
+        "Pretendo, mas ocasionalmente podem surgir urgências que precisarei priorizar.": 0,
+        "Não pretendo, em alguns dias de aula já tenho outra atividade que não consigo encaixar em outro horário.": -1
+    }
+},
+ "considerando_sua_carga_de_trabalho_atual,_você_acredita_que_a_duração_das_aulas_é_apropriada?": {
+    "new_name": "avalia_duracao_aulas",
+    "values":{
+        "Sim, a duração das aulas é ideal." : 1,
+        "Talvez, mas algumas aulas poderiam ser mais curtas.": 0,
+        "Talvez, mas as aulas poderiam ser mais longas para terminarmos o curso mais rápido.": 0,
+        "Não, as aulas são muito longas para mim neste momento.": -1
+    }
+},
+ "considerando_o_início_do_treinamento,_você_sente_que_tem_o_apoio_necessário_de_seus_gestores_e_colegas_para_se_concentrar_no_treinamento_durante_o_horário_das_aulas?": {
+    "new_name": "tem_suporte_da_equipe",
+    "values":{
+        "Sim, minha equipe está ciente e acredito que vão colaborar para minha participação no treinamento ser eficiente." : 1,
+        "Mais ou menos, imagino que terei interrupções às vezes, mas acredito que conseguirei lidar com elas para não afetar meu desempenho no treinamento.": 0,
+        "Não, provavelmente terei que interromper o treinamento para atender a outras demandas vindas dos meus colegas/gestores.": -1
+    }
+},
+ "qual_é_o_seu_nível_de_entusiasmo_em_relação_ao_conteúdo_e_objetivos_deste_treinamento?": {
+    "new_name": "possui_entusiasmo",
+    "values":{
+        "Muito entusiasmado/a, estou ansioso/a para me desenvolver.": 1,
+        "Neutro/a, estou aberto/a às informações, mas não estou especialmente entusiasmado/a.": 0,
+        "Pouco entusiasmado/a, não era um objetivo pessoal/profissional meu evoluir nessa ferramenta nesse momento.": -1
+    }
+},
+ "como_você_avalia_a_qualidade_da_didática_e_apresentação_do_conteúdo_até_o_momento?": {
+    "new_name": "avalia_qualidade_didatica",
+    "values": {
+        "Excelente, estou compreendendo bem todos os conceitos apresentados.":1,
+        "Boa, a maioria dos tópicos é clara, mas alguns podem ser explicados de forma mais detalhada.": 0,
+        "Regular, estou tendo dificuldades para acompanhar ou entender alguns pontos.": -1
+    }
+},
+ "em_relação_ao_tópicos_que_você_acredita_que_podem_ser_melhor_explicados_ou_que_você_sente_dificuldade:": {
+    "new_name": "interage_quando_ha_dificuldade",
+    "values": {
+        "Quando necessário, peço ao/a instrutor/a que explique novamente.": 1,
+        "Não me sinto confortável para pedir ao/a instrutor/a que explique novamente.": -1
+    }
+},
+ "você_sente_que_o_tempo_dedicado_a_cada_tópico_é_adequado_para_o_seu_aprendizado?": {
+    "new_name": "avalia_tempo_adequado",
+    "values": {
+        "Sim, o ritmo do treinamento está adequado para mim.": 1,
+        "Mais ou menos.": 0,
+        "Não.": -1
+    }
+},
+ "qual_é_a_sua_percepção?": {
+    "new_name": "poderia_ser_mais_rapido",
+    "values": {
+        "Algumas partes poderiam ser mais lentas.": -1,
+        "Algumas partes poderiam ser mais rápidas.": 1
+    }
+},
+ "você_teve_a_oportunidade_de_revisar_os_conteúdos_conforme_necessário?": {
+    "new_name": "revisou_conteudo",
+    "values": {
+        "Não, estou com dificuldades para revisar os conteúdos conforme necessário.": -1,
+        "Sim, estou conseguindo revisar os conteúdos quando necessário.":1,
+        "Não, não senti necessidade de revisar os conteúdos.": 0
+    }
+},
+ "como_você_avalia_sua_própria_participação_e_dedicação_durante_o_treinamento_até_agora?": {
+    "new_name": "participacao_propria",
+    "values": {
+        "Regular, às vezes me pego distraído/a ou não totalmente focado/a.": 0,
+        "Muito boa, estou participando ativamente e dedicando o tempo necessário.": 1,
+        "Precisa melhorar, estou tendo dificuldades para me manter engajado/a e participativo/a.": -1
+    }
+},
+ "você_está_sendo_solicitado/a_em_outras_tarefas_durante_o_treinamento?_se_sim,_como_isso_está_impactando_sua_experiência_de_aprendizado?": {
+    "new_name": "ha_interrupcoes",
+    "values": {
+        "Sim, ocasionalmente sou solicitado/a em outras tarefas, mas consigo lidar com isso sem problemas.": 0,
+        "Sim, estou sendo frequentemente interrompido/a por outras demandas, o que dificulta meu foco no treinamento.": 1,
+        "Não, consigo me concentrar no treinamento sem interrupções.": 0
+    }
+},    
+ "classificacao_comentario": {
+    "new_name": "classificacao_comentario",
+    "values": {
+            "positivo" : 1,
+            "neutro": 0,
+            "negativo": -1
+        }
+ }
+}
